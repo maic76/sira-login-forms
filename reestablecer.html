@@ -4,69 +4,43 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Registro usuario SIRA</title>
+	<title>Resetear Contraseña</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/my-login.css">
 </head>
 <body class="my-login-page">
 	<section class="h-100">
 		<div class="container h-100">
-			<div class="row justify-content-md-center h-100">
+			<div class="row justify-content-md-center align-items-center h-100">
 				<div class="card-wrapper">
 					<div class="brand">
 						<img src="img/logo-lania.jpg" alt="bootstrap 4 login page">
 					</div>
 					<div class="card fat">
 						<div class="card-body">
-							<h4 class="card-title">Registro</h4>
+							<h4 class="card-title">Restablecer contraseña</h4>
 							<form method="POST" class="my-login-validation" novalidate="">
 								<div class="form-group">
-									<label for="name">Nombre</label>
-									<input id="name" type="text" class="form-control" name="name" required autofocus>
+									<label for="new-password">Nueva contraseña:</label>
+									<input id="new-password" type="password" class="form-control" name="password" required autofocus data-eye>
 									<div class="invalid-feedback">
-										¿Cuál es tu nombre?
+										El campo contraseña es requerido
 									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="email">Dirección e-mail:</label>
-									<input id="email" type="email" class="form-control" name="email" required>
-									<div class="invalid-feedback">
-										Tu e-mail no es válido
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="password">Contraseña</label>
-									<input id="password" type="password" class="form-control" name="password" required data-eye>
-									<div class="invalid-feedback">
-										La contraseña es requerida
-									</div>
-								</div>
-
-								<div class="form-group">
-									<div class="custom-checkbox custom-control">
-										<input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
-										<label for="agree" class="custom-control-label">Estoy de acuerdo con los <a href="#">Términos y condiciones</a></label>
-										<div class="invalid-feedback">
-											Debes estar de acuerdo con los términos y condiciones
-										</div>
+									<div class="form-text text-muted">
+										Asegúrate que tu contraseña sea fuerte y fácil de recordar
 									</div>
 								</div>
 
 								<div class="form-group m-0">
 									<button type="submit" class="btn btn-primary btn-block">
-										Registrarse
+										Reestablecer contraseña
 									</button>
-								</div>
-								<div class="mt-4 text-center">
-									¿Ya tienes una cuenta? <a href="index.html">Login</a>
 								</div>
 							</form>
 						</div>
 					</div>
 					<div class="footer">
-						Copyright &copy; 2021 &mdash; Centro de eneseñanza LANIA
+						Copyright &copy; 2021 &mdash; Centro de Enseñanza LANIA
 					</div>
 				</div>
 			</div>
